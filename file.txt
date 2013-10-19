@@ -1,0 +1,12 @@
+line1\line2 >file.txt
+git add file.txt
+git status
+git commit -m
+git log
+echo -e "line3" >> file.txt
+git status
+git diff file.txt
+git add file.txt
+git -m "Just added a new file."
+echo -e line1line2
+line3
